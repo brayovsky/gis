@@ -311,7 +311,7 @@ section
 	padding-right: 25px;
 	padding-top: 28px;
 	padding-bottom: 44px;
-	background: rgba(0,54,121,0.83);
+	background: rgba(34,151,153,0.83);
 }
 .home_slider_content::after
 {
@@ -321,7 +321,7 @@ section
 	left: 0;
 	height: 100%;
 	width: 4px;
-	background: #ffa800;
+	background: #dbe442;
 	content: '';
 }
 .home_slider_content h1
@@ -344,7 +344,7 @@ section
 {
 	width: 174px;
 	height: 59px;
-	background: #ffa800;
+	background: #dbe442;
 	text-align: center;
 }
 .link_button a
@@ -398,7 +398,7 @@ section
 }
 .link_button:hover a
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .home_slider_nav
 {
@@ -426,7 +426,7 @@ section
 }
 .home_slider_nav:hover
 {
-	background: #003679;
+	background: #229799;
 }
 
 /*********************************
@@ -487,7 +487,7 @@ section
 }
 .logo_line_1 span
 {
-	color: #ffa800;
+	color: #dbe442;
 	font-weight: bold;
 }
 .logo_line_2
@@ -531,7 +531,7 @@ section
 {
 	font-family: 'gill', sans-serif;
 	font-size: 14px;
-	color: #ffa800;
+	color: #dbe442;
 	text-transform: uppercase;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -554,7 +554,7 @@ section
 	position: absolute;
 	top: 0;
 	right: 6px;
-	color: #ffa800;
+	color: #dbe442;
 	content: '|';
 }
 .coins
@@ -601,7 +601,7 @@ section
 }
 .burger:hover i
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 
 /*********************************
@@ -611,7 +611,7 @@ section
 .main_menu
 {
 	width: 100%;
-	background: #003679;
+	background: #229799;
 }
 .main_menu_container
 {
@@ -640,12 +640,12 @@ section
 	left: -9px;
 	width: calc(100% + 12px);
 	height: 3px;
-	background: #ffa800;
+	background: #dbe442;
 	content: '';
 }
 .main_menu_list > li.active > a
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .main_menu_list li a
 {
@@ -664,7 +664,7 @@ section
 }
 .main_menu_list li a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .main_menu_list li a svg
 {
@@ -679,7 +679,7 @@ section
 .main_menu_list li.hassubs.active .arrow_d,
 .main_menu_list li.hassubs:hover .arrow_d
 {
-	stroke: #ffa800;
+	stroke: #dbe442;
 }
 .main_menu_list li ul
 {
@@ -709,7 +709,7 @@ section
 }
 .main_menu_list li ul li a
 {
-	color: #003679;
+	color: #229799;
 	line-height: 40px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -719,7 +719,7 @@ section
 }
 .main_menu_list li ul li a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .main_menu_list li ul li a img
 {
@@ -762,7 +762,7 @@ section
 .main_menu_phone:hover span,
 .main_menu_email:hover span
 {
-	color: #003679;
+	color: #229799;
 }
 .main_menu_phone svg,
 .main_menu_email svg
@@ -787,7 +787,7 @@ section
 .main_menu_phone:hover svg path,
 .main_menu_email:hover svg path
 {
-	fill: #003679;
+	fill: #229799;
 }
 .main_menu_social
 {
@@ -844,12 +844,12 @@ section
 }
 .main_menu_social ul li:hover a i
 {
-	color: #003679;
+	color: #dbe442;
 }
 .main_menu_social ul li:hover
 {
-	border: solid 1px #003679;
-	box-shadow: 0 0 1px 0px #003679 inset, 0 0 1px 0px #003679;
+	border: solid 1px #dbe442;
+	box-shadow: 0 0 1px 0px #dbe442 inset, 0 0 1px 0px #dbe442;
 }
 .main_menu_search
 {
@@ -879,7 +879,7 @@ section
 }
 .main_menu_search_button:hover .mag_path
 {
-	fill: #ffa800;
+	fill: #dbe442;
 }
 .main_menu_search_content
 {
@@ -905,7 +905,7 @@ section
 }
 .search_input
 {
-	background: #ffa800;
+	background: #dbe442;
 	border: solid 2px #d6d6d6;
 	outline: none;
 	height: 40px;
@@ -957,7 +957,7 @@ section
 	overflow: hidden;
 	opacity: 0;
 	visibility: hidden;
-	background: #ffa800;
+	background: #dbe442;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -1051,7 +1051,7 @@ section
 	left: 2px;
 	width: 68px;
 	height: 3px;
-	background: #ffa800;
+	background: #dbe442;
 	content: '';
 }
 .features_title
@@ -1101,7 +1101,7 @@ section
 }
 .features_item_title a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .features_item_text
 {
@@ -1118,7 +1118,7 @@ section
 
 .cta
 {
-	background: #003679;
+	background: #229799;
 }
 .cta_content
 {
@@ -1136,7 +1136,7 @@ section
 }
 .cta_text a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 
 /*********************************
@@ -1167,7 +1167,7 @@ section
 }
 .service:hover
 {
-	background: #ffa800;
+	background: #dbe442;
 }
 .service:nth-child(3n+3)
 {
@@ -1189,7 +1189,7 @@ section
 }
 .service_icon svg path
 {
-	fill: #ffa800;
+	fill: #dbe442;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1301,7 +1301,7 @@ section
 	left: 2px;
 	width: 68px;
 	height: 3px;
-	background: #ffa800;
+	background: #dbe442;
 	content: '';
 }
 .system_title
@@ -1347,7 +1347,7 @@ section
 }
 .system_item:hover svg path
 {
-	fill: #ffa800;
+	fill: #dbe442;
 }
 .system_item_icon img
 {
@@ -1369,7 +1369,7 @@ section
 }
 .system_item:hover .system_item_title
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .system_image
 {
@@ -1422,7 +1422,7 @@ section
 	left: 2px;
 	width: 68px;
 	height: 3px;
-	background: #ffa800;
+	background: #dbe442;
 	content: '';
 }
 .info_title
@@ -1500,7 +1500,7 @@ section
 {
 	font-family: 'gill', sans-serif;
 	font-size: 16px;
-	color: #003679;
+	color: #229799;
 	margin-top: 3px;
 }
 
@@ -1593,7 +1593,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	background: #ffa800;
+	background: #dbe442;
 	padding-left: 60px;
 	padding-right: 150px;
 }
@@ -1605,7 +1605,7 @@ section
 	left: 41px;
 	width: 100%;
 	height: 100%;
-	background: #003679;
+	background: #229799;
 	content: "";
 	z-index: -1;
 }
@@ -1689,7 +1689,7 @@ section
 }
 .footer_links ul li a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .footer_newsletter_form
 {
@@ -1705,7 +1705,7 @@ section
 	border: solid 2px rgba(224, 227, 228, 0.17);
 	padding-left: 26px;
 	outline: none;
-	color: #ffa800;
+	color: #dbe442;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1723,7 +1723,7 @@ section
 	right: 0;
 	width: 127px;
 	height: 47px;
-	background: #ffa800;
+	background: #dbe442;
 	border: none;
 	outline: none;
 	font-size: 14px;
@@ -1793,7 +1793,7 @@ section
 }
 .footer_social ul li:hover a i
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .copyright
 {
@@ -1834,7 +1834,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #ffa800;
+	color: #dbe442;
 }
 .cr
 {
