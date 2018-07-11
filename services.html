@@ -14,6 +14,12 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/services.css">
 	<link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+	<style>
+	/*overrides*/
+	.point{
+		margin-bottom: 36px;
+	}
+	</style>
 </head>
 
 <body>
@@ -344,104 +350,127 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<div class="row points_container">
+						<div class="row points_container" id="services_list_container">
 
-							<!-- Service -->
-							<div class="row">
+							<!-- Services -->
+							<div class="row" id="service_1">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_1.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Sewer Safety Inspection</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
-										</div>
 									</div>
 								</div>
 							</div>
 
 							<!-- Service -->
-							<div class="row">
+							<div class="row" id="service_2">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_2.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Oil and Gas Asset Management</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
-										</div>
 									</div>
 								</div>
 							</div>
 
 							<!-- Service -->
-							<div class="row">
+							<div class="row" id="service_3">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_3.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Pipeline risk Management</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
 										</div>
 									</div>
 								</div>
-							</div>
 
 							<!-- Service -->
-							<div class="row">
+							<div class="row" id="service_4">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_4.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Geophysical Services</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
 										</div>
 									</div>
 								</div>
-							</div>
 
 							<!-- Service -->
-							<div class="row">
+							<div class="row" id="service_5">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_5.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Mapping</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
-										</div>
 									</div>
 								</div>
 							</div>
 
 							<!-- Service -->
-							<div class="row">
+							<div class="row" id="service_6">
 								<div class="point clearfix">
 									<div class="point_image">
 										<img src="images/services_6.png" alt="">
 									</div>
 									<div class="point_content">
 										<div class="point_title">Urban Utility Asset Management</div>
-										<div class="point_text">
-											<p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris.</p>
-										</div>
 									</div>
 								</div>
 							</div>
 
 						</div>
 					</div>
-					<div class="col-md-9">
-						<div class="row points_container points_explanation">
+					<div class="col-md-9" id="description_list_container">
+						<div class="row points_container points_explanation active_desc" id="desc_for_service_1">
 							<div>
-								<p>Display selected service</p>
+								<h3>Sewer Safety Inspection</h3>
+								<br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
+							</div>
+						</div>
+
+						<div class="row points_container points_explanation d-none" id="desc_for_service_2">
+							<div>
+								<h3>Oil and Gas Asset Management</h3>
+								<br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
+							</div>
+						</div>
+
+						<div class="row points_container points_explanation d-none" id="desc_for_service_3">
+							<div>
+								<h3>Pipeline Risk Management</h3>
+								<br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
+							</div>
+						</div>
+
+						<div class="row points_container points_explanation d-none" id="desc_for_service_4">
+							<div>
+								<h3>Geophysical Services</h3>
+								<br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
+							</div>
+						</div>
+
+						<div class="row points_container points_explanation d-none" id="desc_for_service_5">
+							<div>
+								<h3>Mapping</h3>
+								<br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
+							</div>
+						</div>
+
+						<div class="row points_container points_explanation d-none" id="desc_for_service_6">
+							<div>
+								<h3>Urban Utility Asset Management</h3>
+								<br>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Diam maecenas sed enim ut sem viverra aliquet eget sit. Tempus urna et pharetra pharetra massa massa ultricies. Urna neque viverra justo nec ultrices. Venenatis cras sed felis eget velit aliquet sagittis. Ornare arcu odio ut sem nulla pharetra diam. Tellus cras adipiscing enim eu turpis egestas. Vestibulum morbi blandit cursus risus at ultrices mi. Diam vulputate ut pharetra sit amet aliquam id diam. Nunc scelerisque viverra mauris in aliquam</p>
 							</div>
 						</div>
@@ -736,6 +765,7 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="js/about_custom.js"></script>
+	<script src="js/doms/services.js"></script>
 </body>
 
 </html>
