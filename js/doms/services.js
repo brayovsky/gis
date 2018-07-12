@@ -6,7 +6,7 @@ function toggleVisibility($element) {
   $element.toggleClass('active_desc').toggleClass("d-none")
 }
 
-function serviceOnClick(service) {
+function switchDescription(service) {
   toggleVisibility($(".active_desc"))
   var serviceSuffix = $(service).attr("id").slice(-1)
   toggleVisibility($("#desc_for_service_" + serviceSuffix))
@@ -15,12 +15,26 @@ function serviceOnClick(service) {
 function addListenersToServices(services){
   services.each(function (index, service){
     $(service).click(function(){
-      serviceOnClick(service)
+      switchDescription(service)
     })
   })
 }
 
+function goToHashServiceDesc() {
+  var hashService = window.location.hash
+  if(!hashService) return
+  var serviceSuffix = hashService.slice(-1)
+  var newActiveSurvice = $("#service_" + serviceSuffix)
+  switchDescription(newActiveSurvice)
+}
+
+function addHashListener() {
+  $(window).on("hashchange", goToHashServiceDesc)
+}
+
 function main() {
+  goToHashServiceDesc()
+  addHashListener()
   var services = getAllServices()
   addListenersToServices(services)
 }
